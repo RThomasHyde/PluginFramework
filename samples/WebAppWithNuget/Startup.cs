@@ -10,9 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Weikio.PluginFramework.Catalogs;
-using Weikio.PluginFramework.Catalogs.NuGet;
-using Weikio.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Catalogs.NuGet;
+using RThomasHyde.PluginFramework.Samples.Shared;
 
 namespace WebAppWithNuget
 {
@@ -30,7 +30,7 @@ namespace WebAppWithNuget
         {
             NugetPluginCatalogOptions.Defaults.LoggerFactory = () => new NugetLogger(services);
 
-            var nugetCatalog = new NugetPackagePluginCatalog("Weikio.PluginFramework.Samples.SharedPlugins", includePrerelease: true, configureFinder: finder =>
+            var nugetCatalog = new NugetPackagePluginCatalog("RThomasHyde.PluginFramework.Samples.SharedPlugins", includePrerelease: true, configureFinder: finder =>
             {
                 finder.Implements<IOperator>();
             });

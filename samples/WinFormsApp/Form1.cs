@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Weikio.PluginFramework.Abstractions;
-using Weikio.PluginFramework.Catalogs;
-using Weikio.PluginFramework.Catalogs.Delegates;
-using Weikio.PluginFramework.Samples.Shared;
-using Weikio.PluginFramework.TypeFinding;
+using RThomasHyde.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Catalogs.Delegates;
+using RThomasHyde.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.TypeFinding;
 
 namespace WinFormsApp
 {
@@ -38,7 +38,7 @@ namespace WinFormsApp
         private async Task CreateCatalogs()
         {
             // 1. Uses folder catalog to add calculation operations inside the app. Mimics the WPF-sample.
-            var folderPluginCatalog = new FolderPluginCatalog(@"..\..\..\..\Shared\Weikio.PluginFramework.Samples.SharedPlugins\bin\debug\netcoreapp3.1",
+            var folderPluginCatalog = new FolderPluginCatalog(@"..\..\..\..\Shared\RThomasHyde.PluginFramework.Samples.SharedPlugins\bin\debug\netcoreapp3.1",
                 type => { type.Implements<IOperator>().Tag("operator"); });
             
             _allPlugins.AddCatalog(folderPluginCatalog);

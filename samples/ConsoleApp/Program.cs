@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Weikio.PluginFramework.Samples.Shared;
-using Weikio.PluginFramework.Abstractions;
-using Weikio.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Catalogs;
 
 namespace ConsoleApp
 {

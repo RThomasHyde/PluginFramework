@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Weikio.PluginFramework.AspNetCore\Weikio.PluginFramework.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\src\RThomasHyde.PluginFramework.AspNetCore\RThomasHyde.PluginFramework.AspNetCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

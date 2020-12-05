@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using Weikio.PluginFramework.Samples.Shared;
-using Weikio.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.Abstractions;
 
 namespace WebApp.Controllers
 {

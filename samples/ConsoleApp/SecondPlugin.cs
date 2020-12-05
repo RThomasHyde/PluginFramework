@@ -1,5 +1,5 @@
 ﻿using System;
-using Weikio.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.Samples.Shared;
 
 namespace ConsoleApp
 {

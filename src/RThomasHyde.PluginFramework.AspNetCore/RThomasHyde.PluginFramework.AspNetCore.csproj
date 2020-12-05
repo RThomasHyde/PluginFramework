@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Plugin Framework for ASP.NET Core.</Description>
+    <PackageDescription>Plugin Framework for ASP.NET Core.</PackageDescription>
+    <PackageId>RThomasHyde.PluginFramework.AspNetCore</PackageId>
+    <Product>RThomasHyde.PluginFramework.AspNetCore</Product>
+    <AssemblyName>RThomasHyde.PluginFramework.AspNetCore</AssemblyName>
+    <PackageTags>plugins;addons;aspnetextensions;plugin framework</PackageTags>
+    <PackageIcon>logo_transparent_color_256.png</PackageIcon>
+    <Title>Plugin Framework for ASP.NET Core</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="../../docs/logo_transparent_color_256.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinVer" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RThomasHyde.PluginFramework.Abstractions\RThomasHyde.PluginFramework.Abstractions.csproj" />
+    <ProjectReference Include="..\RThomasHyde.PluginFramework.Configuration\RThomasHyde.PluginFramework.Configuration.csproj" />
+    <ProjectReference Include="..\RThomasHyde.PluginFramework\RThomasHyde.PluginFramework.csproj" />
+  </ItemGroup>
+  
+</Project>

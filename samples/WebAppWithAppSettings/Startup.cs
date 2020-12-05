@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Weikio.PluginFramework.Samples.Shared;
-using Weikio.PluginFramework.TypeFinding;
+using RThomasHyde.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.TypeFinding;
 
 namespace WebAppWithAppSettings
 {

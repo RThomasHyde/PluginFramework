@@ -12,6 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Weikio.PluginFramework.Catalogs.Roslyn\Weikio.PluginFramework.Catalogs.Roslyn.csproj" />
+    <ProjectReference Include="..\..\..\src\RThomasHyde.PluginFramework.Catalogs.Roslyn\RThomasHyde.PluginFramework.Catalogs.Roslyn.csproj" />
   </ItemGroup>
 </Project>

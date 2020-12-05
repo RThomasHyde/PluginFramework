@@ -4,9 +4,9 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using Weikio.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Abstractions;
 
-namespace Weikio.PluginFramework.Catalogs.Roslyn.Tests
+namespace RThomasHyde.PluginFramework.Catalogs.Roslyn.Tests
 {
     public static class TestHelpers
     {

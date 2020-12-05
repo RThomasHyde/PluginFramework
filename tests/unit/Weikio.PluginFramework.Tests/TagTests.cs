@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Weikio.PluginFramework.Abstractions;
-using Weikio.PluginFramework.Catalogs;
-using Weikio.PluginFramework.Catalogs.Delegates;
-using Weikio.PluginFramework.Tests.Plugins;
-using Weikio.PluginFramework.TypeFinding;
+using RThomasHyde.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Catalogs.Delegates;
+using RThomasHyde.PluginFramework.Tests.Plugins;
+using RThomasHyde.PluginFramework.TypeFinding;
 using Xunit;
 
-namespace Weikio.PluginFramework.Tests
+namespace RThomasHyde.PluginFramework.Tests
 {
     public class TagTests
     {

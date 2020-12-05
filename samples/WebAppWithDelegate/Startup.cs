@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Weikio.PluginFramework.Catalogs;
-using Weikio.PluginFramework.Catalogs.Delegates;
+using RThomasHyde.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Catalogs.Delegates;
 
 namespace WebAppWithDelegate
 {

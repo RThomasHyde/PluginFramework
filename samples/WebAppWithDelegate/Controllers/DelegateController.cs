@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
-using Weikio.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Abstractions;
 
 namespace WebAppWithDelegate.Controllers
 {

@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using Weikio.PluginFramework.Catalogs;
-using Weikio.PluginFramework.Tests.Plugins;
+using RThomasHyde.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Tests.Plugins;
 using Xunit;
 
-namespace Weikio.PluginFramework.Tests
+namespace RThomasHyde.PluginFramework.Tests
 {
     public class TypeFinderTests
     {

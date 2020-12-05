@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Windows;
-using Weikio.PluginFramework.Samples.Shared;
-using Weikio.PluginFramework.Abstractions;
-using Weikio.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Catalogs;
 
 namespace WpfApp
 {
@@ -18,7 +18,7 @@ namespace WpfApp
 
         private async void MainWindow_OnLoaded(object sender, RoutedEventArgs e)
         {
-            var folderPluginCatalog = new FolderPluginCatalog(@"..\..\..\..\Shared\Weikio.PluginFramework.Samples.SharedPlugins\bin\debug\netcoreapp3.1", type =>
+            var folderPluginCatalog = new FolderPluginCatalog(@"..\..\..\..\Shared\RThomasHyde.PluginFramework.Samples.SharedPlugins\bin\debug\netcoreapp3.1", type =>
             {
                 type.Implements<IOperator>();
             });

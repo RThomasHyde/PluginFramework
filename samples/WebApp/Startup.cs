@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Weikio.PluginFramework.Samples.Shared;
-using Weikio.PluginFramework.Abstractions;
-using Weikio.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Catalogs;
 
 namespace WebApp
 {
@@ -22,7 +22,7 @@ namespace WebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var folderPluginCatalog = new FolderPluginCatalog(@"..\Shared\Weikio.PluginFramework.Samples.SharedPlugins\bin\debug\netcoreapp3.1", type =>
+            var folderPluginCatalog = new FolderPluginCatalog(@"..\Shared\RThomasHyde.PluginFramework.Samples.SharedPlugins\bin\debug\netcoreapp3.1", type =>
             {
                 type.Implements<IOperator>();
             });
@@ -32,7 +32,7 @@ namespace WebApp
                 .AddPluginType<IOperator>();
 
             // Alternatively
-            // services.AddPluginFramework<IOperator>(@"..\Shared\Weikio.PluginFramework.Samples.SharedPlugins\bin\debug\netcoreapp3.1");
+            // services.AddPluginFramework<IOperator>(@"..\Shared\RThomasHyde.PluginFramework.Samples.SharedPlugins\bin\debug\netcoreapp3.1");
 
             services.AddControllers();
         }

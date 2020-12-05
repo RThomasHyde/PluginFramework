@@ -6,9 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\Weikio.PluginFramework.Abstractions\Weikio.PluginFramework.Abstractions.csproj" />
-      <ProjectReference Include="..\..\src\Weikio.PluginFramework\Weikio.PluginFramework.csproj" />
-      <ProjectReference Include="..\Shared\Weikio.PluginFramework.Samples.Shared\Weikio.PluginFramework.Samples.Shared.csproj" />
+      <ProjectReference Include="..\..\src\RThomasHyde.PluginFramework.Abstractions\RThomasHyde.PluginFramework.Abstractions.csproj" />
+      <ProjectReference Include="..\..\src\RThomasHyde.PluginFramework\RThomasHyde.PluginFramework.csproj" />
+      <ProjectReference Include="..\Shared\RThomasHyde.PluginFramework.Samples.Shared\RThomasHyde.PluginFramework.Samples.Shared.csproj" />
     </ItemGroup>
 
 </Project>

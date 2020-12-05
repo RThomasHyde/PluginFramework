@@ -2,11 +2,11 @@
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Weikio.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Abstractions;
 using Xunit;
-using IPluginCatalogExtensions = Weikio.PluginFramework.Abstractions.IPluginCatalogExtensions;
+using IPluginCatalogExtensions = RThomasHyde.PluginFramework.Abstractions.IPluginCatalogExtensions;
 
-namespace Weikio.PluginFramework.Catalogs.Roslyn.Tests
+namespace RThomasHyde.PluginFramework.Catalogs.Roslyn.Tests
 {
     public class RoslynPluginCatalogTests
     {

@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Shared\Weikio.PluginFramework.Samples.Shared\Weikio.PluginFramework.Samples.Shared.csproj" />
+      <ProjectReference Include="..\Shared\RThomasHyde.PluginFramework.Samples.Shared\RThomasHyde.PluginFramework.Samples.Shared.csproj" />
     </ItemGroup>
 
 </Project>

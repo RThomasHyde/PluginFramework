@@ -4,13 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Weikio.PluginFramework.Abstractions;
-using Weikio.PluginFramework.Catalogs;
-using Weikio.PluginFramework.Context;
-using Weikio.PluginFramework.TypeFinding;
+using RThomasHyde.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Context;
+using RThomasHyde.PluginFramework.TypeFinding;
 using Xunit;
 
-namespace Weikio.PluginFramework.Tests
+namespace RThomasHyde.PluginFramework.Tests
 {
     public class FolderCatalogTests
     {

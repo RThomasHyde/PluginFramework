@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Weikio.PluginFramework.Catalogs.Roslyn.Tests
+namespace RThomasHyde.PluginFramework.Catalogs.Roslyn.Tests
 {
     public class ScriptInitializerTests
     {

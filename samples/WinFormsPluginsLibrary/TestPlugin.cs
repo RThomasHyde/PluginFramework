@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows.Forms;
-using Weikio.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.Samples.Shared;
 
 namespace WinFormsPluginsLibrary
 {

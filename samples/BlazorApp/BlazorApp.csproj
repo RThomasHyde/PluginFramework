@@ -5,8 +5,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\Weikio.PluginFramework.AspNetCore\Weikio.PluginFramework.AspNetCore.csproj" />
-      <ProjectReference Include="..\Shared\Weikio.PluginFramework.Samples.Shared\Weikio.PluginFramework.Samples.Shared.csproj" />
+      <ProjectReference Include="..\..\src\RThomasHyde.PluginFramework.AspNetCore\RThomasHyde.PluginFramework.AspNetCore.csproj" />
+      <ProjectReference Include="..\Shared\RThomasHyde.PluginFramework.Samples.Shared\RThomasHyde.PluginFramework.Samples.Shared.csproj" />
     </ItemGroup>
 
     <ItemGroup>

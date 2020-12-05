@@ -12,7 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlazorApp.Data;
 using Microsoft.CodeAnalysis;
-using Weikio.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.Samples.Shared;
 
 namespace BlazorApp
 {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
-using Weikio.PluginFramework.Abstractions;
-using Weikio.PluginFramework.AspNetCore;
-using Weikio.PluginFramework.Samples.Shared;
+using RThomasHyde.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.AspNetCore;
+using RThomasHyde.PluginFramework.Samples.Shared;
 
 namespace WebAppWithAppSettings.Controllers
 {

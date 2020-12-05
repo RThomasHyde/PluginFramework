@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using Weikio.PluginFramework.Abstractions;
-using Weikio.PluginFramework.Catalogs;
-using Weikio.PluginFramework.Tests.Plugins;
+using RThomasHyde.PluginFramework.Abstractions;
+using RThomasHyde.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Tests.Plugins;
 using Xunit;
 
-namespace Weikio.PluginFramework.Tests
+namespace RThomasHyde.PluginFramework.Tests
 {
     public class TypePluginCatalogTests
     {
@@ -26,7 +26,7 @@ namespace Weikio.PluginFramework.Tests
 
             var thePlugin = catalog.Single();
         
-            Assert.Equal("Weikio.PluginFramework.Tests.Plugins.TypePlugin", thePlugin.Name);
+            Assert.Equal("RThomasHyde.PluginFramework.Tests.Plugins.TypePlugin", thePlugin.Name);
         }
         
         [Fact]

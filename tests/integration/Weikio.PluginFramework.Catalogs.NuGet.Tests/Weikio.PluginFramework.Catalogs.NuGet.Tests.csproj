@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Weikio.PluginFramework.Catalogs.NuGet\Weikio.PluginFramework.Catalogs.NuGet.csproj" />
+    <ProjectReference Include="..\..\..\src\RThomasHyde.PluginFramework.Catalogs.NuGet\RThomasHyde.PluginFramework.Catalogs.NuGet.csproj" />
   </ItemGroup>
 
 </Project>

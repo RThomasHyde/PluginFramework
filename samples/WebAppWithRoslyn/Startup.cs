@@ -6,8 +6,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Weikio.PluginFramework.Catalogs;
-using Weikio.PluginFramework.Catalogs.Roslyn;
+using RThomasHyde.PluginFramework.Catalogs;
+using RThomasHyde.PluginFramework.Catalogs.Roslyn;
 
 namespace WebAppWithRoslyn
 {
